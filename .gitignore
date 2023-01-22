@@ -1,0 +1,5 @@
+#
+.idea/*
+#hide all compiled files for python
+*.pyc
+.DS_Store

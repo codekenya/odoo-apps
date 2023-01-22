@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <record id="l10ntz_chart_template" model="account.chart.template">
+            <field name="name">Tanzania COA</field>
+            <field name="property_account_receivable_id" ref="tz1100"/>
+            <field name="property_account_payable_id" ref="tz2100"/>
+            <field name="property_account_expense_categ_id" ref="tz5001"/>
+            <field name="property_account_income_categ_id" ref="tz4001"/>
+            <field name="property_tax_receivable_account_id" ref="tz1110"/>
+            <field name="property_tax_payable_account_id" ref="tz2200"/>
+            <field name="income_currency_exchange_account_id" ref="tz5144"/>
+            <field name="expense_currency_exchange_account_id" ref="tz5144"/>
+            <field name="default_cash_difference_income_account_id" ref="tz5146"/>
+            <field name="default_cash_difference_expense_account_id" ref="tz5146"/>
+            <field name="account_journal_early_pay_discount_loss_account_id" ref="tz5147"/>
+            <field name="account_journal_early_pay_discount_gain_account_id" ref="tz400710"/>
+            <field name="default_pos_receivable_account_id" ref="tz110010"/>
+            <field name="property_stock_valuation_account_id" ref="tz1001"/>
+            <field name="property_stock_account_output_categ_id" ref="tz100120"/>
+            <field name="property_stock_account_input_categ_id" ref="tz100110"/>
+            <field name="use_anglo_saxon" eval="True"/>
+        </record>
+</odoo>
